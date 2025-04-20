@@ -193,14 +193,13 @@ h2 {
 }
 
 .image-container video {
-  max-width: 100%;
+  max-width: 55%;
   height: auto;
   display: grid; /* Asegura que el video se centre correctamente */
   grid-template-columns: 
       repeat(auto-fit, minmax(150px, 1fr)
       );
       gap:32px;
-  margin: 500 auto; /* Centra el video horizontalmente */
   object-fit: cover; /* Añadido para ajustar el video en el contenedor sin distorsionarse */
 }
 .imagen-chica {
