@@ -52,7 +52,7 @@ body {
 
 .sub-container {
   background-color: #ffffff;
-  padding: 2em; /* Utiliza em en lugar de píxeles */
+  padding: 0em; /* Utiliza em en lugar de píxeles */
   margin: 1em 0; /* Utiliza em en lugar de píxeles */
 }
 
@@ -152,12 +152,37 @@ h2 {
   font-style: normal;
 }
 
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  video {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+
   .main-container,
   .sub-container,
   .column {
     margin: 0; /* Elimina márgenes laterales en dispositivos pequeños */
   }
-
+}
 
 .sub-container h4 {
   background-color: #da9329;
@@ -182,7 +207,7 @@ h2 {
   background-color: #fffdfd;
   text-align-last:center; 
   padding: 0em;
-  width: 100%;
+  width: 55%;
   border-radius: 7px; 
   height:auto;
   display: flex;
@@ -192,7 +217,7 @@ h2 {
 }
 
 .image-container video {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   display: grid; /* Asegura que el video se centre correctamente */
   grid-template-columns: 
