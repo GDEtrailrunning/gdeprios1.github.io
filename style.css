@@ -153,30 +153,6 @@ h2 {
 }
 
 
-
-video {
-  width: 100%;
-  height: auto;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  video {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  video {
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-  }
-
   .main-container,
   .sub-container,
   .column {
