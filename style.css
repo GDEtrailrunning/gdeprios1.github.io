@@ -155,14 +155,14 @@ h2 {
 
 
 video {
-  width: 500%;
+  width: 100%;
   height: auto;
 }
 
 @media (min-aspect-ratio: 16/9) {
   video {
     width: auto;
-    height: 50%;
+    height: 100%;
   }
 }
 
@@ -185,7 +185,7 @@ video {
 }
 
 .sub-container h4 {
-  background-color: #4e4d4c;
+  background-color: #555350;
   padding: 2em; /* Utiliza em en lugar de píxeles */
   margin: 0; /* Elimina márgenes predeterminados */
   font-family: 'Arial', sans-serif;
@@ -193,7 +193,7 @@ video {
   text-align: center;
 }
 .sub-container h2 {
-  background-color: #7f3ef7;
+  background-color: #1f95e9;
   padding: 2.0em; /* Utiliza em en lugar de píxeles */
   margin: 0; /* Elimina márgenes predeterminados */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
